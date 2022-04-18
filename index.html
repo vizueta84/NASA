@@ -1,16 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>NASA</title>
+  </head>
+  <body>
+    <main>
+      <div class="topcontainer">
+        <h1 class="header">NASA</h1>
+      </div>
+      <section class="containerholder">
+        <div class="bottomcontainers">
+          <h2>Social Media</h2>
+          <ul>
+            <li>Twitter</li>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Youtube</li>
+          </ul>
+        </div>
+        <article class="bottomcontainers">
+          <h2>Office Info</h2>
+          <ul>
+            <li>
+              Public Communicatiions Office NASA Headquarters 300 E.Street
+            </li>
+            <li>SW,Suite 5R30 Washington,DC 20546 (202)358-0001 (Office)</li>
+            <li>(202)358-4338 (Fax)</li>
+          </ul>
+        </article>
 
-</head>
-<body>
- <div>
-     <H1>NASA</H1>
- </div>
-</body>
+        <div class="bottomcontainers">
+          <h2>Contact Us</h2>
+          <form>
+            <label for="fname">Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name"
+            />
+            <label for="Message">message</label>
+            <textarea name="message" rows="10" cols="30" id="Message">
+            </textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

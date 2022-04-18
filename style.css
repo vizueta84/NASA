@@ -1,5 +1,57 @@
-div {
-    width: 50%;
-    height: 50%;
+body{
+    border: blue solid 1pt;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    border: green solid 1pt;
+    width: 850px;
+}
+.topcontainer {
+    width: 100%;
+    height: 450px;
     border: black solid 1pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(galaxy-11098_1280.jpg);
+}
+.header {
+    color: white;
+    font-weight: bolder;
+    font-size: 60px;
+}
+.containerholder {
+    border: red solid 1pt;
+    display: flex;
+    justify-content: space-between ;
+}
+.bottomcontainers {
+    border: black solid 1pt;
+    width: 270px;
+    height: 324px;
+    display: flex;
+    /* justify-content: center; */
+    /* flex-direction: row; */
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 20px;
+    background-color: rgb(209, 193, 193);
+
+}
+.header {
+    border: black solid 1pt;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    padding-bottom: 20%;
+}
+ul {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 0;
 }
